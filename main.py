@@ -12,7 +12,7 @@ encoder = pkl.load(input_ec)
 input_md = open('lrc_vinames.pkl', 'rb')
 model = pkl.load(input_md)
 
-st.header('Write full name')
+st.header('Write a Vietnamese full name')
 txt = st.text_area('', '')
 
 if txt != '':
